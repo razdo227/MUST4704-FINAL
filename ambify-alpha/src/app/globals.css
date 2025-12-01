@@ -1,0 +1,52 @@
+/* Keeping the CSS extremely simple on purpose. No fancy visuals. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #111;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0 0 8px 0;
+}
+
+button,
+input,
+label {
+  font-family: inherit;
+  font-size: 14px;
+}
+
+button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.block {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #fff;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 240px;
+}
