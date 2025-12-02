@@ -4,7 +4,7 @@ ambify is a **browser-based granular synthesis engine** built with **TypeScript*
 
 ## Features
 
-- Built with TypeScript + Web Audio API
+- Built with TypeScript (JavaScript) + Web Audio API
 - Upload any audio file and turn it into a pad
 - Real-time grain generation with envelopes, density, and drift
 - Dark-themed, responsive UI
@@ -47,7 +47,7 @@ ambify is a **browser-based granular synthesis engine** built with **TypeScript*
 ## Audio Input
 
 ### Audio Upload
-- Drag-and-drop and file picker
+- Drag-and-drop mechanism
 - Formats: WAV, AIFF, MP3, FLAC
 - Optional waveform display (Canvas or Wavesurfer.js)
 
@@ -61,13 +61,8 @@ ambify is a **browser-based granular synthesis engine** built with **TypeScript*
 - Waveform viewer with movable playhead
 - Sliders and knobs for parameters
 - Envelope dropdown
-- Freeze and evolution toggles
-- Optional CPU meter
-
-### Presets
-- Save/load via LocalStorage or IndexedDB
-- Import/export JSON presets
-- Includes factory preset library
+- Freeze and evolution toggles (optional)
+- CPU meter
 
 ### Aesthetic
 - Minimal dark-themed UI
